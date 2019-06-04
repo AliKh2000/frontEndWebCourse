@@ -1,7 +1,43 @@
-body{
-  background: #0ff;
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body {
+  background: #0088aa;
 }
 
-body h2{
-  color: #f00;
+#header {
+  color: #cc00cc;
+  font-style: italic;
+  font-family: "Indie Flower" , sans-serif;
+}
+
+p {
+  text-indent: 2px;
+}
+
+body > main > section > article > h3 {
+  text-shadow: 1px 1px #ff0000;
+}
+
+body > main > section > article {
+  max-width: 33%;
+  display: inline-block;
+}
+
+body > main > section > article > img {
+  width: 90%;
+  height: 200px;
+  border: 2px solid #aa00aa;
+  shadow: 2px 2px #aa00aa;
+  margin: 10px;
+}
+
+a {
+  color: #900;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
+img:active {
+  opacity: .8;
 }
